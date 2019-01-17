@@ -1,12 +1,13 @@
-package com.maciejko.share
+package com.maciejko.share.feature.chooseRole
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.maciejko.share.R
 
-class MainActivity : AppCompatActivity() {
+class ChooseRoleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_choose_role)
     }
 }
