@@ -10,6 +10,10 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".feature.slave.SlaveActivity">
+        </activity>
+        <activity android:name=".feature.master.MasterActivity">
+        </activity>
         <activity android:name=".feature.chooseRole.ChooseRoleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
