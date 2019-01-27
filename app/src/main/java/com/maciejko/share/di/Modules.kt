@@ -1,6 +1,7 @@
 package com.maciejko.share.di
 
 import androidx.room.Room
+import com.maciejko.share.data.source.CoordinatedGroupDataSource
 import com.maciejko.share.data.source.CoordinatedGroupRepository
 import com.maciejko.share.data.source.local.CoordinatedGroupDatabase
 import com.maciejko.share.data.source.local.CoordinatedGroupLocalDataSource
@@ -17,15 +18,17 @@ val appModule = module {
 
     // Database
     single {
-        Room.databaseBuilder(androidApplication(), CoordinatedGroupDatabase::class.java, "coordinated-group-db")
-            .build()
+        Room.databaseBuilder(
+            androidApplication(),
+            CoordinatedGroupDatabase::class.java, "coordinated-group-db"
+        ).build()
     }
 
     // DAO
     single { get<CoordinatedGroupDatabase>().coordinatedGroupDao() }
 
     // Data source
-    single { CoordinatedGroupLocalDataSource(get()) }
+    single { CoordinatedGroupLocalDataSource(get()) as CoordinatedGroupDataSource }
 
     //Moshi
     single { Moshi.Builder().build() }
