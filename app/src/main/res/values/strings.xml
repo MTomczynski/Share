@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Share</string>
     <string name="choose_your_role">Choose your role</string>
+    <string name="menu_my_list">My list</string>
+    <string name="menu_my_group">My group</string>
 </resources>

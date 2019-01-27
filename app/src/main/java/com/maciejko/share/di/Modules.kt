@@ -3,8 +3,10 @@ package com.maciejko.share.di
 import androidx.room.Room
 import com.maciejko.share.data.source.local.CoordinatedGroupDatabase
 import com.maciejko.share.data.source.local.CoordinatedGroupLocalDataSource
+import com.maciejko.share.feature.master.MasterViewModel
 import com.squareup.moshi.Moshi
 import org.koin.android.ext.koin.androidApplication
+import org.koin.android.viewmodel.ext.koin.viewModel
 import org.koin.dsl.module.module
 
 /**
@@ -25,4 +27,6 @@ val appModule = module {
     single { CoordinatedGroupLocalDataSource(get()) }
 
     single { Moshi.Builder().build() }
+
+    viewModel { MasterViewModel() }
 }

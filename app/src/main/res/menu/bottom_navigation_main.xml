@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/coordinated_group_list"
+                android:icon="@drawable/ic_coordinated_group_list"
+                android:title="@string/menu_my_list"
+                app:showAsAction="always"/>
+        <item
+                android:id="@+id/group_users_list"
+                android:icon="@drawable/ic_group_users"
+                android:title="@string/menu_my_group"
+                app:showAsAction="ifRoom"/>
+    </group>
+</menu>
