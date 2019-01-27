@@ -8,4 +8,7 @@
 
     <color name="colorActive">#FFFFFFFF</color>
     <color name="colorInactive">#88FFFFFF</color>
+
+    <color name="colorTextPrimary">#242222</color>
+    <color name="colorTextSecondary">#444444</color>
 </resources>
