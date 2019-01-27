@@ -13,7 +13,7 @@
     <fragment
             android:id="@+id/master_slave_group_destination"
             android:name="com.maciejko.share.feature.master.slave_group.SlaveGroupFragment"
-            tools:layout="@layout/fragment_coordinated_group_list">
+            tools:layout="@layout/fragment_slave_group">
     </fragment>
 
 </navigation>

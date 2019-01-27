@@ -9,6 +9,6 @@ import com.maciejko.share.R
 
 class SlaveGroupFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_my_group, container, false)
+        return inflater.inflate(R.layout.fragment_slave_group, container, false)
     }
 }

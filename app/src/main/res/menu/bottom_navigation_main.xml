@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/coordinated_group_list"
+                android:id="@id/master_coordinated_group_list_destination"
                 android:icon="@drawable/ic_coordinated_group_list"
                 android:title="@string/menu_my_list"
                 app:showAsAction="always"/>
         <item
-                android:id="@+id/group_users_list"
+                android:id="@id/master_slave_group_destination"
                 android:icon="@drawable/ic_group_users"
                 android:title="@string/menu_my_group"
                 app:showAsAction="ifRoom"/>
