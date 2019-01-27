@@ -1,4 +1,4 @@
-package com.maciejko.share.feature.chooseRole
+package com.maciejko.share.feature.choose_role
 
 import android.content.Intent
 import android.os.Bundle

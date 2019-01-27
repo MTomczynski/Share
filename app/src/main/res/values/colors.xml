@@ -4,7 +4,8 @@
     <color name="colorPrimaryDark">#039BE5</color>
     <color name="colorAccent">#FFC107</color>
 
-    <!--Buttons colors-->
+    <color name="colorBackground">#EBEBEB</color>
+    <color name="colorDivider">#7C7C7C</color>
 
     <color name="colorActive">#FFFFFFFF</color>
     <color name="colorInactive">#88FFFFFF</color>

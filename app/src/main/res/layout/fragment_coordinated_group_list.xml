@@ -3,16 +3,18 @@
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
 
+        <variable name="viewModel"
+                  type="com.maciejko.share.feature.master.coordinated_group_list.CoordinatedGroupListViewModel"/>
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".feature.master.items.MyItemsFragment">
+            tools:context=".feature.master.coordinated_group_list.CoordinatedGroupListFragment">
 
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="My list fragment"
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/coordinated_group_list_rv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
