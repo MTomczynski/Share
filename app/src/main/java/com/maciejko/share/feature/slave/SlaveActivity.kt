@@ -1,13 +1,11 @@
 package com.maciejko.share.feature.slave
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import com.maciejko.share.R
+import com.maciejko.share.base.BaseActivity
+import com.maciejko.share.databinding.ActivitySlaveBinding
 
-class SlaveActivity : AppCompatActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_slave)
+class SlaveActivity : BaseActivity<ActivitySlaveBinding>(R.layout.activity_slave) {
+    override fun bind() {
+        //TODO implement
     }
 }

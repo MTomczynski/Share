@@ -27,8 +27,6 @@ class CoordinatedGroupListViewModel(
         loadList()
     }
 
-    fun reloadList() = loadList()
-
     private fun loadList() {
         coordinatedGroupRepository
             .getCoordinatedGroups()

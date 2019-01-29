@@ -16,5 +16,8 @@ abstract class BaseActivity<VDB : ViewDataBinding>(
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, layoutRes)
         binding.setLifecycleOwner(this)
+        bind()
     }
+
+    abstract fun bind()
 }
