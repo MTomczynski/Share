@@ -1,6 +1,8 @@
-package com.maciejko.share.data
+package com.maciejko.share.util
 
 import androidx.room.TypeConverter
+import com.maciejko.share.data.CoordinatedFile
+import com.maciejko.share.data.Role
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
 import org.koin.standalone.KoinComponent
