@@ -28,5 +28,8 @@ class CoordinatedGroupListFragment
             DividerItemDecoration.HORIZONTAL
         )
         binding.coordinatedGroupListRv.addItemDecoration(dividerItemDecoration)
+        binding.addButton.setOnClickListener {
+            //TODO go to add fragment
+        }
     }
 }

@@ -27,7 +27,6 @@ class CoordinatedGroupListAdapter :
         holder.binding.executePendingBindings()
     }
 
-
     class CoordinatedGroupListViewHolder(
         val binding: CoordinatedGroupItemBinding
     ) : RecyclerView.ViewHolder(binding.root)
