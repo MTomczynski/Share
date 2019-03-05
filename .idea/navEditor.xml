@@ -8,14 +8,35 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
+                  <entry key="master_add_coordinated_group_list_destination">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="336" />
+                            <option name="y" value="-112" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="master_coordinated_group_list_destination">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="50" />
+                            <option name="y" value="-105" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_master_coordinated_group_list_destination_to_master_add_coordinated_group_list_destination">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -25,8 +46,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="427" />
-                            <option name="y" value="-3" />
+                            <option name="x" value="43" />
+                            <option name="y" value="255" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -35,11 +56,6 @@
                 </map>
               </option>
             </LayoutPositions>
-          </value>
-        </entry>
-        <entry key="navigation.xml">
-          <value>
-            <LayoutPositions />
           </value>
         </entry>
       </map>

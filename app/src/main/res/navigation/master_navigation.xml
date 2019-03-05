@@ -8,6 +8,14 @@
             android:id="@+id/master_coordinated_group_list_destination"
             android:name="com.maciejko.share.feature.master.coordinated_group_list.CoordinatedGroupListFragment"
             tools:layout="@layout/fragment_coordinated_group_list">
+        <action android:id="@+id/action_master_coordinated_group_list_destination_to_master_add_coordinated_group_list_destination"
+                app:destination="@id/master_add_coordinated_group_list_destination"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/master_add_coordinated_group_list_destination"
+            android:name="com.maciejko.share.feature.master.add_coordinated_group.AddCoordinatedGroupFragment"
+            tools:layout="@layout/fragment_add_coordinated_group">
     </fragment>
 
     <fragment

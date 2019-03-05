@@ -1,6 +1,7 @@
 package com.maciejko.share.feature.master.coordinated_group_list
 
 import androidx.lifecycle.Observer
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import com.maciejko.share.R
 import com.maciejko.share.base.BaseFragment
@@ -23,13 +24,17 @@ class CoordinatedGroupListFragment
             }
         })
 
+        decorateList()
+        binding.addButton.setOnClickListener {
+            binding.root.findNavController().navigate(R.id.master_add_coordinated_group_list_destination)
+        }
+    }
+
+    private fun decorateList() {
         val dividerItemDecoration = DividerItemDecoration(
             requireContext(),
             DividerItemDecoration.HORIZONTAL
         )
         binding.coordinatedGroupListRv.addItemDecoration(dividerItemDecoration)
-        binding.addButton.setOnClickListener {
-            //TODO go to add fragment
-        }
     }
 }
