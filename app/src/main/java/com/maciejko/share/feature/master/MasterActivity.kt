@@ -11,6 +11,7 @@ class MasterActivity : BaseActivity<ActivityMasterBinding>(R.layout.activity_mas
         val host: NavHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment? ?: return
         val navController = host.navController
+        setSupportActionBar(binding.toolbar)
         binding.bottomNavigation.setupWithNavController(navController)
     }
 }

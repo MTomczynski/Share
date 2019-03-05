@@ -4,4 +4,7 @@
     <string name="menu_my_list">My list</string>
     <string name="menu_my_group">My group</string>
     <string name="undefined_navigation">Undefined navigation path</string>
+    <string name="add_group_title">Title</string>
+    <string name="add_group_fragment_title">Add group</string>
+    <string name="hint_title">Title</string>
 </resources>
