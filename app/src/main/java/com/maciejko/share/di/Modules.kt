@@ -18,10 +18,7 @@ val appModule = module {
 
     // Database
     single {
-        Room.databaseBuilder(
-            androidApplication(),
-            CoordinatedGroupDatabase::class.java, "coordinated-group-db"
-        ).build()
+        Room.databaseBuilder(androidApplication(), CoordinatedGroupDatabase::class.java, DB_NAME).build()
     }
 
     // DAO
@@ -39,3 +36,5 @@ val appModule = module {
     //View models
     viewModel { CoordinatedGroupListViewModel(get()) }
 }
+
+private const val DB_NAME = "coordinated-group-db"
